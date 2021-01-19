@@ -49,7 +49,7 @@ class Game:
                 pygame.mixer.unpause()
         else:
             bg_music = pygame.mixer.Sound('sounds/bg_music.mp3')
-            bg_music.set_volume(0.02)
+            bg_music.set_volume(0.05)
             bg_music.play(-1)
 
     def draw_objects(self, win):
