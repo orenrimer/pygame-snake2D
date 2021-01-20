@@ -1,6 +1,6 @@
 # pygame-snake2D
 
-A 2D snake game built in python using pygame modules.
+A 2D snake game built in python using pygame framework.
 
 Instructions:
 
