@@ -9,7 +9,7 @@ from tkinter import messagebox
 pygame.init()
 pygame.display.init()
 WIN = pygame.display.set_mode((WIDTH, WIDTH))
-bg_img = pygame.image.load("images/grass_bg.jpg")
+BG_IMG = pygame.image.load("images/grass_bg.jpg")
 
 class Game:
     def __init__(self):
@@ -27,7 +27,7 @@ class Game:
         self.counter = 0
 
     def draw_bg(self, win):
-        bg = pygame.transform.scale(bg_img, (WIDTH, WIDTH))
+        bg = pygame.transform.scale(BG_IMG, (WIDTH, WIDTH))
         win.blit(bg, (0, 0))
 
     def display_score(self, win):
